@@ -65,7 +65,7 @@ const Quiz = ({ data, setStop, setQuestionNumber, questionNumber }) => {
         {question?.answers.map((ans) => (
           <div
             className={selectedAnswer === ans ? className : "answer"}
-            onClick={() => clickHandler(ans)}
+            onClick={() =>!selectedAnswer &&  clickHandler(ans)}
           >
             {ans.text}
           </div>
