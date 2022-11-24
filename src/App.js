@@ -45,7 +45,7 @@ const[userName,setUserName]=useState(null)
       <>
         <div className="main">
 
-        {stop ?<h1 className='earnText'>You Earned {earned}</h1>:(
+        {stop ?<h1 className='earnText'>Congratulations {userName} <br/>You Earned {earned}</h1>:(
           <>
           <div className="top">
             <div className="timer"><Timer setStop={setStop} questionNumber={questionNumber}/></div>
