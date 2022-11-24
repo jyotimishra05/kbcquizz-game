@@ -194,6 +194,7 @@
   border-radius: 5px;
   text-align: center;
   font-size: 18px;
+   text-transform: uppercase;
 }
 
 .startInput:focus {
@@ -224,7 +225,8 @@
   color: rgb(243, 242, 242);
   /* text-shadow: 2px 2px 4px #c87902ef; */
   margin-bottom: 15%;
-
+ line-height: 1.8;
+  text-align: justify;
   text-shadow:
     0 0 7px rgb(231, 134, 7),
     0 0 10px rgb(217, 160, 3),
